@@ -1,0 +1,11 @@
+framework module ScanflowText {
+  umbrella header "ScanflowText.h"
+  export *
+
+  module * { export * }
+}
+
+module ScanflowText.Swift {
+  header "ScanflowText-Swift.h"
+  requires objc
+}

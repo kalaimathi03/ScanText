@@ -1,0 +1,4 @@
+framework module ScanflowCore {
+  header "ScanflowCore-Swift.h"
+  requires objc
+}

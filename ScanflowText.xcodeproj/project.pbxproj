@@ -1,0 +1,879 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		680879B72A2887430007EE4C /* ContainerDetectionModel3.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 680879AB2A2887410007EE4C /* ContainerDetectionModel3.tflite */; };
+		680879B82A2887430007EE4C /* ContainerDetectionModel9.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 680879AC2A2887410007EE4C /* ContainerDetectionModel9.tflite */; };
+		680879B92A2887430007EE4C /* ContainerDetectionModel8.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 680879AD2A2887410007EE4C /* ContainerDetectionModel8.tflite */; };
+		680879BA2A2887430007EE4C /* ContainerDetectionModel12.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 680879AE2A2887410007EE4C /* ContainerDetectionModel12.tflite */; };
+		680879BB2A2887430007EE4C /* ContainerDetectionModel6.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 680879AF2A2887410007EE4C /* ContainerDetectionModel6.tflite */; };
+		680879BC2A2887430007EE4C /* ContainerDetectionModel2.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 680879B02A2887410007EE4C /* ContainerDetectionModel2.tflite */; };
+		680879BD2A2887430007EE4C /* ContainerDetectionModel5.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 680879B12A2887420007EE4C /* ContainerDetectionModel5.tflite */; };
+		680879BE2A2887430007EE4C /* ContainerDetectionModel7.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 680879B22A2887420007EE4C /* ContainerDetectionModel7.tflite */; };
+		680879BF2A2887430007EE4C /* ContainerDetectionModel10.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 680879B32A2887420007EE4C /* ContainerDetectionModel10.tflite */; };
+		680879C02A2887430007EE4C /* ContainerDetectionModel11.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 680879B42A2887420007EE4C /* ContainerDetectionModel11.tflite */; };
+		680879C12A2887430007EE4C /* ContainerDetectionModel4.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 680879B52A2887420007EE4C /* ContainerDetectionModel4.tflite */; };
+		680879C22A2887430007EE4C /* ContainerDetectionModel1.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 680879B62A2887430007EE4C /* ContainerDetectionModel1.tflite */; };
+		680879CF2A2887C70007EE4C /* ContainerClassificationModel10.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 680879C32A2887C50007EE4C /* ContainerClassificationModel10.tflite */; };
+		680879D02A2887C70007EE4C /* ContainerClassificationModel6.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 680879C42A2887C50007EE4C /* ContainerClassificationModel6.tflite */; };
+		680879D12A2887C70007EE4C /* ContainerClassificationModel1.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 680879C52A2887C60007EE4C /* ContainerClassificationModel1.tflite */; };
+		680879D22A2887C70007EE4C /* ContainerClassificationModel5.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 680879C62A2887C60007EE4C /* ContainerClassificationModel5.tflite */; };
+		680879D32A2887C70007EE4C /* ContainerClassificationModel7.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 680879C72A2887C60007EE4C /* ContainerClassificationModel7.tflite */; };
+		680879D42A2887C70007EE4C /* ContainerClassificationModel8.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 680879C82A2887C60007EE4C /* ContainerClassificationModel8.tflite */; };
+		680879D52A2887C70007EE4C /* ContainerClassificationModel3.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 680879C92A2887C60007EE4C /* ContainerClassificationModel3.tflite */; };
+		680879D62A2887C70007EE4C /* ContainerClassificationModel4.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 680879CA2A2887C70007EE4C /* ContainerClassificationModel4.tflite */; };
+		680879D72A2887C70007EE4C /* ContainerClassificationModel11.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 680879CB2A2887C70007EE4C /* ContainerClassificationModel11.tflite */; };
+		680879D82A2887C70007EE4C /* ContainerClassificationModel12.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 680879CC2A2887C70007EE4C /* ContainerClassificationModel12.tflite */; };
+		680879D92A2887C70007EE4C /* ContainerClassificationModel9.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 680879CD2A2887C70007EE4C /* ContainerClassificationModel9.tflite */; };
+		680879DA2A2887C70007EE4C /* ContainerClassificationModel2.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 680879CE2A2887C70007EE4C /* ContainerClassificationModel2.tflite */; };
+		680EF4542A3B1A15008A7158 /* cls7.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 680EF4482A3B1A15008A7158 /* cls7.tflite */; };
+		680EF4552A3B1A15008A7158 /* cls2.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 680EF4492A3B1A15008A7158 /* cls2.tflite */; };
+		680EF4562A3B1A15008A7158 /* cls3.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 680EF44A2A3B1A15008A7158 /* cls3.tflite */; };
+		680EF4572A3B1A15008A7158 /* cls6.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 680EF44B2A3B1A15008A7158 /* cls6.tflite */; };
+		680EF4582A3B1A15008A7158 /* cls11.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 680EF44C2A3B1A15008A7158 /* cls11.tflite */; };
+		680EF4592A3B1A16008A7158 /* cls10.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 680EF44D2A3B1A15008A7158 /* cls10.tflite */; };
+		680EF45A2A3B1A16008A7158 /* cls1.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 680EF44E2A3B1A15008A7158 /* cls1.tflite */; };
+		680EF45B2A3B1A16008A7158 /* cls4.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 680EF44F2A3B1A15008A7158 /* cls4.tflite */; };
+		680EF45C2A3B1A16008A7158 /* cls8.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 680EF4502A3B1A15008A7158 /* cls8.tflite */; };
+		680EF45D2A3B1A16008A7158 /* cls5.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 680EF4512A3B1A15008A7158 /* cls5.tflite */; };
+		680EF45E2A3B1A16008A7158 /* cls9.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 680EF4522A3B1A15008A7158 /* cls9.tflite */; };
+		680EF45F2A3B1A16008A7158 /* cls12.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 680EF4532A3B1A15008A7158 /* cls12.tflite */; };
+		680EF46C2A3B1A97008A7158 /* detec1.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 680EF4602A3B1A96008A7158 /* detec1.tflite */; };
+		680EF46D2A3B1A97008A7158 /* detec2.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 680EF4612A3B1A96008A7158 /* detec2.tflite */; };
+		680EF46E2A3B1A97008A7158 /* detec6.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 680EF4622A3B1A96008A7158 /* detec6.tflite */; };
+		680EF46F2A3B1A97008A7158 /* detec9.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 680EF4632A3B1A97008A7158 /* detec9.tflite */; };
+		680EF4702A3B1A97008A7158 /* detec11.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 680EF4642A3B1A97008A7158 /* detec11.tflite */; };
+		680EF4712A3B1A97008A7158 /* detec10.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 680EF4652A3B1A97008A7158 /* detec10.tflite */; };
+		680EF4722A3B1A97008A7158 /* detec7.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 680EF4662A3B1A97008A7158 /* detec7.tflite */; };
+		680EF4732A3B1A97008A7158 /* detec4.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 680EF4672A3B1A97008A7158 /* detec4.tflite */; };
+		680EF4742A3B1A97008A7158 /* detec12.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 680EF4682A3B1A97008A7158 /* detec12.tflite */; };
+		680EF4752A3B1A97008A7158 /* detec3.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 680EF4692A3B1A97008A7158 /* detec3.tflite */; };
+		680EF4762A3B1A97008A7158 /* detec8.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 680EF46A2A3B1A97008A7158 /* detec8.tflite */; };
+		680EF4772A3B1A97008A7158 /* detec5.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 680EF46B2A3B1A97008A7158 /* detec5.tflite */; };
+		68563DBE2A61176C00CF1D5E /* DOT-det-yolov5s-v1.3.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 68563DBD2A61176C00CF1D5E /* DOT-det-yolov5s-v1.3.tflite */; };
+		68563DC02A61178E00CF1D5E /* dot-labels.txt in Resources */ = {isa = PBXBuildFile; fileRef = 68563DBF2A61178E00CF1D5E /* dot-labels.txt */; };
+		68563DC22A6117D500CF1D5E /* eff-net-dot-char-cls_v1.0.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 68563DC12A6117D500CF1D5E /* eff-net-dot-char-cls_v1.0.tflite */; };
+		688984242AC52A7500886833 /* TireProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 688984232AC52A7500886833 /* TireProcessing.swift */; };
+		68A0F72529B97C4C00D327E5 /* ContainerPreProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A0F72429B97C4C00D327E5 /* ContainerPreProcessing.swift */; };
+		68A0F72729B9C0EB00D327E5 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A0F72629B9C0EB00D327E5 /* UIColor+Extension.swift */; };
+		68A0F72B29BA49AD00D327E5 /* Container-effnet-06-03-2023.txt in Resources */ = {isa = PBXBuildFile; fileRef = 68A0F72929BA49AD00D327E5 /* Container-effnet-06-03-2023.txt */; };
+		68B1B18F2A4149EA00775225 /* cls.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 68B1B18E2A4149EA00775225 /* cls.tflite */; };
+		68B1B1912A4149F400775225 /* det.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 68B1B1902A4149F400775225 /* det.tflite */; };
+		68B3553A29AF0CEF00190D7B /* Preprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B3553929AF0CEF00190D7B /* Preprocessor.swift */; };
+		68DF3D3229B07E7D004C4612 /* ContainerResultPostProcessing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DF3D3129B07E7D004C4612 /* ContainerResultPostProcessing.swift */; };
+		68DFB9922952F32B00A85032 /* ScanflowText.docc in Sources */ = {isa = PBXBuildFile; fileRef = 68DFB9912952F32B00A85032 /* ScanflowText.docc */; };
+		68DFB9982952F32C00A85032 /* ScanflowText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68DFB98D2952F32B00A85032 /* ScanflowText.framework */; };
+		68DFB99D2952F32C00A85032 /* ScanflowTextTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DFB99C2952F32C00A85032 /* ScanflowTextTests.swift */; };
+		68DFB99E2952F32C00A85032 /* ScanflowText.h in Headers */ = {isa = PBXBuildFile; fileRef = 68DFB9902952F32B00A85032 /* ScanflowText.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68DFB9B02953FD8F00A85032 /* ScanflowTextManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DFB9AF2953FD8F00A85032 /* ScanflowTextManager.swift */; };
+		68DFB9B2295402A200A85032 /* enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DFB9B1295402A200A85032 /* enum.swift */; };
+		68DFB9C52954042300A85032 /* QuantizationParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DFB9B72954042300A85032 /* QuantizationParameters.swift */; };
+		68DFB9C62954042300A85032 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DFB9B82954042300A85032 /* Model.swift */; };
+		68DFB9C72954042300A85032 /* Tensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DFB9B92954042300A85032 /* Tensor.swift */; };
+		68DFB9C82954042300A85032 /* TensorFlowLite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DFB9BA2954042300A85032 /* TensorFlowLite.swift */; };
+		68DFB9C92954042300A85032 /* Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DFB9BB2954042300A85032 /* Delegate.swift */; };
+		68DFB9CA2954042300A85032 /* InterpreterError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DFB9BC2954042300A85032 /* InterpreterError.swift */; };
+		68DFB9CB2954042300A85032 /* Interpreter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DFB9BD2954042300A85032 /* Interpreter.swift */; };
+		68DFB9CC2954042300A85032 /* effiLabel.txt in Resources */ = {isa = PBXBuildFile; fileRef = 68DFB9BF2954042300A85032 /* effiLabel.txt */; };
+		68DFB9CF2954042300A85032 /* labelmap.txt in Resources */ = {isa = PBXBuildFile; fileRef = 68DFB9C22954042300A85032 /* labelmap.txt */; };
+		68DFB9D4295555C400A85032 /* ScanflowTextManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DFB9D3295555C400A85032 /* ScanflowTextManager+Extension.swift */; };
+		8BD887C62BB40A5A000C72AC /* ScanflowCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD887C42BB40A5A000C72AC /* ScanflowCore.framework */; };
+		8BD887C72BB40A5A000C72AC /* TensorFlowLiteC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD887C52BB40A5A000C72AC /* TensorFlowLiteC.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68DFB9992952F32C00A85032 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68DFB9842952F32B00A85032 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68DFB98C2952F32B00A85032;
+			remoteInfo = ScanflowText;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		680879AB2A2887410007EE4C /* ContainerDetectionModel3.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = ContainerDetectionModel3.tflite; sourceTree = "<group>"; };
+		680879AC2A2887410007EE4C /* ContainerDetectionModel9.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = ContainerDetectionModel9.tflite; sourceTree = "<group>"; };
+		680879AD2A2887410007EE4C /* ContainerDetectionModel8.tflite */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ContainerDetectionModel8.tflite; sourceTree = "<group>"; };
+		680879AE2A2887410007EE4C /* ContainerDetectionModel12.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = ContainerDetectionModel12.tflite; sourceTree = "<group>"; };
+		680879AF2A2887410007EE4C /* ContainerDetectionModel6.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = ContainerDetectionModel6.tflite; sourceTree = "<group>"; };
+		680879B02A2887410007EE4C /* ContainerDetectionModel2.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = ContainerDetectionModel2.tflite; sourceTree = "<group>"; };
+		680879B12A2887420007EE4C /* ContainerDetectionModel5.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = ContainerDetectionModel5.tflite; sourceTree = "<group>"; };
+		680879B22A2887420007EE4C /* ContainerDetectionModel7.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = ContainerDetectionModel7.tflite; sourceTree = "<group>"; };
+		680879B32A2887420007EE4C /* ContainerDetectionModel10.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = ContainerDetectionModel10.tflite; sourceTree = "<group>"; };
+		680879B42A2887420007EE4C /* ContainerDetectionModel11.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = ContainerDetectionModel11.tflite; sourceTree = "<group>"; };
+		680879B52A2887420007EE4C /* ContainerDetectionModel4.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = ContainerDetectionModel4.tflite; sourceTree = "<group>"; };
+		680879B62A2887430007EE4C /* ContainerDetectionModel1.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = ContainerDetectionModel1.tflite; sourceTree = "<group>"; };
+		680879C32A2887C50007EE4C /* ContainerClassificationModel10.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = ContainerClassificationModel10.tflite; sourceTree = "<group>"; };
+		680879C42A2887C50007EE4C /* ContainerClassificationModel6.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = ContainerClassificationModel6.tflite; sourceTree = "<group>"; };
+		680879C52A2887C60007EE4C /* ContainerClassificationModel1.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = ContainerClassificationModel1.tflite; sourceTree = "<group>"; };
+		680879C62A2887C60007EE4C /* ContainerClassificationModel5.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = ContainerClassificationModel5.tflite; sourceTree = "<group>"; };
+		680879C72A2887C60007EE4C /* ContainerClassificationModel7.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = ContainerClassificationModel7.tflite; sourceTree = "<group>"; };
+		680879C82A2887C60007EE4C /* ContainerClassificationModel8.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = ContainerClassificationModel8.tflite; sourceTree = "<group>"; };
+		680879C92A2887C60007EE4C /* ContainerClassificationModel3.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = ContainerClassificationModel3.tflite; sourceTree = "<group>"; };
+		680879CA2A2887C70007EE4C /* ContainerClassificationModel4.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = ContainerClassificationModel4.tflite; sourceTree = "<group>"; };
+		680879CB2A2887C70007EE4C /* ContainerClassificationModel11.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = ContainerClassificationModel11.tflite; sourceTree = "<group>"; };
+		680879CC2A2887C70007EE4C /* ContainerClassificationModel12.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = ContainerClassificationModel12.tflite; sourceTree = "<group>"; };
+		680879CD2A2887C70007EE4C /* ContainerClassificationModel9.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = ContainerClassificationModel9.tflite; sourceTree = "<group>"; };
+		680879CE2A2887C70007EE4C /* ContainerClassificationModel2.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = ContainerClassificationModel2.tflite; sourceTree = "<group>"; };
+		680EF4482A3B1A15008A7158 /* cls7.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = cls7.tflite; sourceTree = "<group>"; };
+		680EF4492A3B1A15008A7158 /* cls2.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = cls2.tflite; sourceTree = "<group>"; };
+		680EF44A2A3B1A15008A7158 /* cls3.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = cls3.tflite; sourceTree = "<group>"; };
+		680EF44B2A3B1A15008A7158 /* cls6.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = cls6.tflite; sourceTree = "<group>"; };
+		680EF44C2A3B1A15008A7158 /* cls11.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = cls11.tflite; sourceTree = "<group>"; };
+		680EF44D2A3B1A15008A7158 /* cls10.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = cls10.tflite; sourceTree = "<group>"; };
+		680EF44E2A3B1A15008A7158 /* cls1.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = cls1.tflite; sourceTree = "<group>"; };
+		680EF44F2A3B1A15008A7158 /* cls4.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = cls4.tflite; sourceTree = "<group>"; };
+		680EF4502A3B1A15008A7158 /* cls8.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = cls8.tflite; sourceTree = "<group>"; };
+		680EF4512A3B1A15008A7158 /* cls5.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = cls5.tflite; sourceTree = "<group>"; };
+		680EF4522A3B1A15008A7158 /* cls9.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = cls9.tflite; sourceTree = "<group>"; };
+		680EF4532A3B1A15008A7158 /* cls12.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = cls12.tflite; sourceTree = "<group>"; };
+		680EF4602A3B1A96008A7158 /* detec1.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = detec1.tflite; sourceTree = "<group>"; };
+		680EF4612A3B1A96008A7158 /* detec2.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = detec2.tflite; sourceTree = "<group>"; };
+		680EF4622A3B1A96008A7158 /* detec6.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = detec6.tflite; sourceTree = "<group>"; };
+		680EF4632A3B1A97008A7158 /* detec9.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = detec9.tflite; sourceTree = "<group>"; };
+		680EF4642A3B1A97008A7158 /* detec11.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = detec11.tflite; sourceTree = "<group>"; };
+		680EF4652A3B1A97008A7158 /* detec10.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = detec10.tflite; sourceTree = "<group>"; };
+		680EF4662A3B1A97008A7158 /* detec7.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = detec7.tflite; sourceTree = "<group>"; };
+		680EF4672A3B1A97008A7158 /* detec4.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = detec4.tflite; sourceTree = "<group>"; };
+		680EF4682A3B1A97008A7158 /* detec12.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = detec12.tflite; sourceTree = "<group>"; };
+		680EF4692A3B1A97008A7158 /* detec3.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = detec3.tflite; sourceTree = "<group>"; };
+		680EF46A2A3B1A97008A7158 /* detec8.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = detec8.tflite; sourceTree = "<group>"; };
+		680EF46B2A3B1A97008A7158 /* detec5.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = detec5.tflite; sourceTree = "<group>"; };
+		68563DBD2A61176C00CF1D5E /* DOT-det-yolov5s-v1.3.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DOT-det-yolov5s-v1.3.tflite"; sourceTree = "<group>"; };
+		68563DBF2A61178E00CF1D5E /* dot-labels.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "dot-labels.txt"; sourceTree = "<group>"; };
+		68563DC12A6117D500CF1D5E /* eff-net-dot-char-cls_v1.0.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = "eff-net-dot-char-cls_v1.0.tflite"; sourceTree = "<group>"; };
+		68849A142AB984320011AAD1 /* dot-char-cls-effnet-lite0-syn.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = "dot-char-cls-effnet-lite0-syn.tflite"; sourceTree = "<group>"; };
+		688984232AC52A7500886833 /* TireProcessing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TireProcessing.swift; sourceTree = "<group>"; };
+		68A0F72429B97C4C00D327E5 /* ContainerPreProcessing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerPreProcessing.swift; sourceTree = "<group>"; };
+		68A0F72629B9C0EB00D327E5 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		68A0F72929BA49AD00D327E5 /* Container-effnet-06-03-2023.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Container-effnet-06-03-2023.txt"; sourceTree = "<group>"; };
+		68B1B18E2A4149EA00775225 /* cls.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = cls.tflite; sourceTree = "<group>"; };
+		68B1B1902A4149F400775225 /* det.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = det.tflite; sourceTree = "<group>"; };
+		68B3553929AF0CEF00190D7B /* Preprocessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preprocessor.swift; sourceTree = "<group>"; };
+		68DF3D3129B07E7D004C4612 /* ContainerResultPostProcessing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerResultPostProcessing.swift; sourceTree = "<group>"; };
+		68DFB98D2952F32B00A85032 /* ScanflowText.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ScanflowText.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68DFB9902952F32B00A85032 /* ScanflowText.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScanflowText.h; sourceTree = "<group>"; };
+		68DFB9912952F32B00A85032 /* ScanflowText.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ScanflowText.docc; sourceTree = "<group>"; };
+		68DFB9972952F32C00A85032 /* ScanflowTextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScanflowTextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68DFB99C2952F32C00A85032 /* ScanflowTextTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanflowTextTests.swift; sourceTree = "<group>"; };
+		68DFB9AF2953FD8F00A85032 /* ScanflowTextManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanflowTextManager.swift; sourceTree = "<group>"; };
+		68DFB9B1295402A200A85032 /* enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enum.swift; sourceTree = "<group>"; };
+		68DFB9B72954042300A85032 /* QuantizationParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuantizationParameters.swift; sourceTree = "<group>"; };
+		68DFB9B82954042300A85032 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		68DFB9B92954042300A85032 /* Tensor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tensor.swift; sourceTree = "<group>"; };
+		68DFB9BA2954042300A85032 /* TensorFlowLite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TensorFlowLite.swift; sourceTree = "<group>"; };
+		68DFB9BB2954042300A85032 /* Delegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Delegate.swift; sourceTree = "<group>"; };
+		68DFB9BC2954042300A85032 /* InterpreterError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterpreterError.swift; sourceTree = "<group>"; };
+		68DFB9BD2954042300A85032 /* Interpreter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interpreter.swift; sourceTree = "<group>"; };
+		68DFB9BF2954042300A85032 /* effiLabel.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = effiLabel.txt; sourceTree = "<group>"; };
+		68DFB9C22954042300A85032 /* labelmap.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = labelmap.txt; sourceTree = "<group>"; };
+		68DFB9D3295555C400A85032 /* ScanflowTextManager+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScanflowTextManager+Extension.swift"; sourceTree = "<group>"; };
+		8BD887C02BB40790000C72AC /* ScanflowCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ScanflowCore.framework; sourceTree = "<group>"; };
+		8BD887C42BB40A5A000C72AC /* ScanflowCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ScanflowCore.framework; sourceTree = "<group>"; };
+		8BD887C52BB40A5A000C72AC /* TensorFlowLiteC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TensorFlowLiteC.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68DFB98A2952F32B00A85032 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BD887C62BB40A5A000C72AC /* ScanflowCore.framework in Frameworks */,
+				8BD887C72BB40A5A000C72AC /* TensorFlowLiteC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68DFB9942952F32C00A85032 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68DFB9982952F32C00A85032 /* ScanflowText.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6864551B297ABAC200DAB5FA /* dectectionModel */ = {
+			isa = PBXGroup;
+			children = (
+				68B1B1902A4149F400775225 /* det.tflite */,
+				680EF4602A3B1A96008A7158 /* detec1.tflite */,
+				680EF4612A3B1A96008A7158 /* detec2.tflite */,
+				680EF4692A3B1A97008A7158 /* detec3.tflite */,
+				680EF4672A3B1A97008A7158 /* detec4.tflite */,
+				680EF46B2A3B1A97008A7158 /* detec5.tflite */,
+				680EF4622A3B1A96008A7158 /* detec6.tflite */,
+				680EF4662A3B1A97008A7158 /* detec7.tflite */,
+				680EF46A2A3B1A97008A7158 /* detec8.tflite */,
+				680EF4632A3B1A97008A7158 /* detec9.tflite */,
+				680EF4652A3B1A97008A7158 /* detec10.tflite */,
+				680EF4642A3B1A97008A7158 /* detec11.tflite */,
+				680EF4682A3B1A97008A7158 /* detec12.tflite */,
+			);
+			path = dectectionModel;
+			sourceTree = "<group>";
+		};
+		6864551C297ABAD500DAB5FA /* classificationModel */ = {
+			isa = PBXGroup;
+			children = (
+				680EF44E2A3B1A15008A7158 /* cls1.tflite */,
+				680EF4492A3B1A15008A7158 /* cls2.tflite */,
+				680EF44A2A3B1A15008A7158 /* cls3.tflite */,
+				680EF44F2A3B1A15008A7158 /* cls4.tflite */,
+				680EF4512A3B1A15008A7158 /* cls5.tflite */,
+				680EF44B2A3B1A15008A7158 /* cls6.tflite */,
+				680EF4482A3B1A15008A7158 /* cls7.tflite */,
+				680EF4502A3B1A15008A7158 /* cls8.tflite */,
+				680EF4522A3B1A15008A7158 /* cls9.tflite */,
+				680EF44D2A3B1A15008A7158 /* cls10.tflite */,
+				680EF44C2A3B1A15008A7158 /* cls11.tflite */,
+				68B1B18E2A4149EA00775225 /* cls.tflite */,
+				680EF4532A3B1A15008A7158 /* cls12.tflite */,
+			);
+			path = classificationModel;
+			sourceTree = "<group>";
+		};
+		6871F1ED29C1864000AD6F22 /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				68A0F72929BA49AD00D327E5 /* Container-effnet-06-03-2023.txt */,
+				6871F20729C1877E00AD6F22 /* classificationModel */,
+				6871F1EE29C1864900AD6F22 /* detectionModel */,
+			);
+			path = Container;
+			sourceTree = "<group>";
+		};
+		6871F1EE29C1864900AD6F22 /* detectionModel */ = {
+			isa = PBXGroup;
+			children = (
+				680879B62A2887430007EE4C /* ContainerDetectionModel1.tflite */,
+				680879B02A2887410007EE4C /* ContainerDetectionModel2.tflite */,
+				680879AB2A2887410007EE4C /* ContainerDetectionModel3.tflite */,
+				680879B52A2887420007EE4C /* ContainerDetectionModel4.tflite */,
+				680879B12A2887420007EE4C /* ContainerDetectionModel5.tflite */,
+				680879AF2A2887410007EE4C /* ContainerDetectionModel6.tflite */,
+				680879B22A2887420007EE4C /* ContainerDetectionModel7.tflite */,
+				680879AD2A2887410007EE4C /* ContainerDetectionModel8.tflite */,
+				680879AC2A2887410007EE4C /* ContainerDetectionModel9.tflite */,
+				680879B32A2887420007EE4C /* ContainerDetectionModel10.tflite */,
+				680879B42A2887420007EE4C /* ContainerDetectionModel11.tflite */,
+				680879AE2A2887410007EE4C /* ContainerDetectionModel12.tflite */,
+			);
+			path = detectionModel;
+			sourceTree = "<group>";
+		};
+		6871F20729C1877E00AD6F22 /* classificationModel */ = {
+			isa = PBXGroup;
+			children = (
+				680879C52A2887C60007EE4C /* ContainerClassificationModel1.tflite */,
+				680879CE2A2887C70007EE4C /* ContainerClassificationModel2.tflite */,
+				680879C92A2887C60007EE4C /* ContainerClassificationModel3.tflite */,
+				680879CA2A2887C70007EE4C /* ContainerClassificationModel4.tflite */,
+				680879C62A2887C60007EE4C /* ContainerClassificationModel5.tflite */,
+				680879C42A2887C50007EE4C /* ContainerClassificationModel6.tflite */,
+				680879C72A2887C60007EE4C /* ContainerClassificationModel7.tflite */,
+				680879C82A2887C60007EE4C /* ContainerClassificationModel8.tflite */,
+				680879CD2A2887C70007EE4C /* ContainerClassificationModel9.tflite */,
+				680879C32A2887C50007EE4C /* ContainerClassificationModel10.tflite */,
+				680879CB2A2887C70007EE4C /* ContainerClassificationModel11.tflite */,
+				680879CC2A2887C70007EE4C /* ContainerClassificationModel12.tflite */,
+			);
+			path = classificationModel;
+			sourceTree = "<group>";
+		};
+		68B3553829AF0C2200190D7B /* util */ = {
+			isa = PBXGroup;
+			children = (
+				68B3553929AF0CEF00190D7B /* Preprocessor.swift */,
+				68DF3D3129B07E7D004C4612 /* ContainerResultPostProcessing.swift */,
+				68A0F72429B97C4C00D327E5 /* ContainerPreProcessing.swift */,
+				68A0F72629B9C0EB00D327E5 /* UIColor+Extension.swift */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		68C8FFF62A600BCF00C5145C /* DotTire */ = {
+			isa = PBXGroup;
+			children = (
+				68563DBF2A61178E00CF1D5E /* dot-labels.txt */,
+				68563DC12A6117D500CF1D5E /* eff-net-dot-char-cls_v1.0.tflite */,
+				68563DBD2A61176C00CF1D5E /* DOT-det-yolov5s-v1.3.tflite */,
+				68849A142AB984320011AAD1 /* dot-char-cls-effnet-lite0-syn.tflite */,
+			);
+			path = DotTire;
+			sourceTree = "<group>";
+		};
+		68DFB9832952F32B00A85032 = {
+			isa = PBXGroup;
+			children = (
+				8BD887C42BB40A5A000C72AC /* ScanflowCore.framework */,
+				8BD887C52BB40A5A000C72AC /* TensorFlowLiteC.framework */,
+				68DFB98F2952F32B00A85032 /* ScanflowText */,
+				68DFB99B2952F32C00A85032 /* ScanflowTextTests */,
+				68DFB98E2952F32B00A85032 /* Products */,
+				8BD887BF2BB40790000C72AC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		68DFB98E2952F32B00A85032 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68DFB98D2952F32B00A85032 /* ScanflowText.framework */,
+				68DFB9972952F32C00A85032 /* ScanflowTextTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68DFB98F2952F32B00A85032 /* ScanflowText */ = {
+			isa = PBXGroup;
+			children = (
+				68B3553829AF0C2200190D7B /* util */,
+				68DFB9902952F32B00A85032 /* ScanflowText.h */,
+				68DFB9912952F32B00A85032 /* ScanflowText.docc */,
+				68DFB9AF2953FD8F00A85032 /* ScanflowTextManager.swift */,
+				68DFB9D3295555C400A85032 /* ScanflowTextManager+Extension.swift */,
+				68DFB9B1295402A200A85032 /* enum.swift */,
+				68DFB9B32954042300A85032 /* Tensorflow */,
+				688984232AC52A7500886833 /* TireProcessing.swift */,
+			);
+			path = ScanflowText;
+			sourceTree = "<group>";
+		};
+		68DFB99B2952F32C00A85032 /* ScanflowTextTests */ = {
+			isa = PBXGroup;
+			children = (
+				68DFB99C2952F32C00A85032 /* ScanflowTextTests.swift */,
+			);
+			path = ScanflowTextTests;
+			sourceTree = "<group>";
+		};
+		68DFB9B32954042300A85032 /* Tensorflow */ = {
+			isa = PBXGroup;
+			children = (
+				68DFB9B62954042300A85032 /* Source */,
+				68DFB9BE2954042300A85032 /* Model */,
+			);
+			path = Tensorflow;
+			sourceTree = "<group>";
+		};
+		68DFB9B62954042300A85032 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				68DFB9B72954042300A85032 /* QuantizationParameters.swift */,
+				68DFB9B82954042300A85032 /* Model.swift */,
+				68DFB9B92954042300A85032 /* Tensor.swift */,
+				68DFB9BA2954042300A85032 /* TensorFlowLite.swift */,
+				68DFB9BB2954042300A85032 /* Delegate.swift */,
+				68DFB9BC2954042300A85032 /* InterpreterError.swift */,
+				68DFB9BD2954042300A85032 /* Interpreter.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		68DFB9BE2954042300A85032 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				68C8FFF62A600BCF00C5145C /* DotTire */,
+				6871F1ED29C1864000AD6F22 /* Container */,
+				6864551C297ABAD500DAB5FA /* classificationModel */,
+				6864551B297ABAC200DAB5FA /* dectectionModel */,
+				68DFB9BF2954042300A85032 /* effiLabel.txt */,
+				68DFB9C22954042300A85032 /* labelmap.txt */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8BD887BF2BB40790000C72AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BD887C02BB40790000C72AC /* ScanflowCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		68DFB9882952F32B00A85032 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68DFB99E2952F32C00A85032 /* ScanflowText.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		68DFB98C2952F32B00A85032 /* ScanflowText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68DFB9A12952F32C00A85032 /* Build configuration list for PBXNativeTarget "ScanflowText" */;
+			buildPhases = (
+				68DFB9882952F32B00A85032 /* Headers */,
+				68DFB9892952F32B00A85032 /* Sources */,
+				68DFB98A2952F32B00A85032 /* Frameworks */,
+				68DFB98B2952F32B00A85032 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScanflowText;
+			productName = ScanflowText;
+			productReference = 68DFB98D2952F32B00A85032 /* ScanflowText.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		68DFB9962952F32C00A85032 /* ScanflowTextTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68DFB9A42952F32C00A85032 /* Build configuration list for PBXNativeTarget "ScanflowTextTests" */;
+			buildPhases = (
+				68DFB9932952F32C00A85032 /* Sources */,
+				68DFB9942952F32C00A85032 /* Frameworks */,
+				68DFB9952952F32C00A85032 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68DFB99A2952F32C00A85032 /* PBXTargetDependency */,
+			);
+			name = ScanflowTextTests;
+			productName = ScanflowTextTests;
+			productReference = 68DFB9972952F32C00A85032 /* ScanflowTextTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68DFB9842952F32B00A85032 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					68DFB98C2952F32B00A85032 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					68DFB9962952F32C00A85032 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 68DFB9872952F32B00A85032 /* Build configuration list for PBXProject "ScanflowText" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68DFB9832952F32B00A85032;
+			productRefGroup = 68DFB98E2952F32B00A85032 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68DFB98C2952F32B00A85032 /* ScanflowText */,
+				68DFB9962952F32C00A85032 /* ScanflowTextTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68DFB98B2952F32B00A85032 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				680EF4572A3B1A15008A7158 /* cls6.tflite in Resources */,
+				680879BC2A2887430007EE4C /* ContainerDetectionModel2.tflite in Resources */,
+				680EF4542A3B1A15008A7158 /* cls7.tflite in Resources */,
+				68563DBE2A61176C00CF1D5E /* DOT-det-yolov5s-v1.3.tflite in Resources */,
+				680EF4722A3B1A97008A7158 /* detec7.tflite in Resources */,
+				680EF4702A3B1A97008A7158 /* detec11.tflite in Resources */,
+				680879BF2A2887430007EE4C /* ContainerDetectionModel10.tflite in Resources */,
+				68B1B18F2A4149EA00775225 /* cls.tflite in Resources */,
+				68A0F72B29BA49AD00D327E5 /* Container-effnet-06-03-2023.txt in Resources */,
+				680879C12A2887430007EE4C /* ContainerDetectionModel4.tflite in Resources */,
+				680879D92A2887C70007EE4C /* ContainerClassificationModel9.tflite in Resources */,
+				680879D72A2887C70007EE4C /* ContainerClassificationModel11.tflite in Resources */,
+				680EF4752A3B1A97008A7158 /* detec3.tflite in Resources */,
+				680879B92A2887430007EE4C /* ContainerDetectionModel8.tflite in Resources */,
+				680EF4552A3B1A15008A7158 /* cls2.tflite in Resources */,
+				680879BE2A2887430007EE4C /* ContainerDetectionModel7.tflite in Resources */,
+				680EF45B2A3B1A16008A7158 /* cls4.tflite in Resources */,
+				680879BD2A2887430007EE4C /* ContainerDetectionModel5.tflite in Resources */,
+				680879C22A2887430007EE4C /* ContainerDetectionModel1.tflite in Resources */,
+				680EF46F2A3B1A97008A7158 /* detec9.tflite in Resources */,
+				680879D02A2887C70007EE4C /* ContainerClassificationModel6.tflite in Resources */,
+				680879D12A2887C70007EE4C /* ContainerClassificationModel1.tflite in Resources */,
+				680EF4762A3B1A97008A7158 /* detec8.tflite in Resources */,
+				680879D82A2887C70007EE4C /* ContainerClassificationModel12.tflite in Resources */,
+				680879D52A2887C70007EE4C /* ContainerClassificationModel3.tflite in Resources */,
+				680879BB2A2887430007EE4C /* ContainerDetectionModel6.tflite in Resources */,
+				680EF45F2A3B1A16008A7158 /* cls12.tflite in Resources */,
+				680EF46D2A3B1A97008A7158 /* detec2.tflite in Resources */,
+				680EF4772A3B1A97008A7158 /* detec5.tflite in Resources */,
+				680879D22A2887C70007EE4C /* ContainerClassificationModel5.tflite in Resources */,
+				680EF45D2A3B1A16008A7158 /* cls5.tflite in Resources */,
+				680EF45C2A3B1A16008A7158 /* cls8.tflite in Resources */,
+				680EF4592A3B1A16008A7158 /* cls10.tflite in Resources */,
+				68B1B1912A4149F400775225 /* det.tflite in Resources */,
+				680EF4582A3B1A15008A7158 /* cls11.tflite in Resources */,
+				68563DC02A61178E00CF1D5E /* dot-labels.txt in Resources */,
+				680EF46E2A3B1A97008A7158 /* detec6.tflite in Resources */,
+				680879B82A2887430007EE4C /* ContainerDetectionModel9.tflite in Resources */,
+				680EF45E2A3B1A16008A7158 /* cls9.tflite in Resources */,
+				680879B72A2887430007EE4C /* ContainerDetectionModel3.tflite in Resources */,
+				680EF45A2A3B1A16008A7158 /* cls1.tflite in Resources */,
+				68DFB9CF2954042300A85032 /* labelmap.txt in Resources */,
+				680EF4562A3B1A15008A7158 /* cls3.tflite in Resources */,
+				680879D42A2887C70007EE4C /* ContainerClassificationModel8.tflite in Resources */,
+				68DFB9CC2954042300A85032 /* effiLabel.txt in Resources */,
+				680EF46C2A3B1A97008A7158 /* detec1.tflite in Resources */,
+				680879C02A2887430007EE4C /* ContainerDetectionModel11.tflite in Resources */,
+				68563DC22A6117D500CF1D5E /* eff-net-dot-char-cls_v1.0.tflite in Resources */,
+				680EF4732A3B1A97008A7158 /* detec4.tflite in Resources */,
+				680879D32A2887C70007EE4C /* ContainerClassificationModel7.tflite in Resources */,
+				680EF4712A3B1A97008A7158 /* detec10.tflite in Resources */,
+				680879DA2A2887C70007EE4C /* ContainerClassificationModel2.tflite in Resources */,
+				680EF4742A3B1A97008A7158 /* detec12.tflite in Resources */,
+				680879D62A2887C70007EE4C /* ContainerClassificationModel4.tflite in Resources */,
+				680879CF2A2887C70007EE4C /* ContainerClassificationModel10.tflite in Resources */,
+				680879BA2A2887430007EE4C /* ContainerDetectionModel12.tflite in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68DFB9952952F32C00A85032 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68DFB9892952F32B00A85032 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				688984242AC52A7500886833 /* TireProcessing.swift in Sources */,
+				68B3553A29AF0CEF00190D7B /* Preprocessor.swift in Sources */,
+				68DFB9C72954042300A85032 /* Tensor.swift in Sources */,
+				68A0F72529B97C4C00D327E5 /* ContainerPreProcessing.swift in Sources */,
+				68DFB9C62954042300A85032 /* Model.swift in Sources */,
+				68DFB9922952F32B00A85032 /* ScanflowText.docc in Sources */,
+				68DFB9C82954042300A85032 /* TensorFlowLite.swift in Sources */,
+				68DFB9CB2954042300A85032 /* Interpreter.swift in Sources */,
+				68DFB9C92954042300A85032 /* Delegate.swift in Sources */,
+				68DFB9B02953FD8F00A85032 /* ScanflowTextManager.swift in Sources */,
+				68A0F72729B9C0EB00D327E5 /* UIColor+Extension.swift in Sources */,
+				68DFB9C52954042300A85032 /* QuantizationParameters.swift in Sources */,
+				68DFB9CA2954042300A85032 /* InterpreterError.swift in Sources */,
+				68DF3D3229B07E7D004C4612 /* ContainerResultPostProcessing.swift in Sources */,
+				68DFB9D4295555C400A85032 /* ScanflowTextManager+Extension.swift in Sources */,
+				68DFB9B2295402A200A85032 /* enum.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68DFB9932952F32C00A85032 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68DFB99D2952F32C00A85032 /* ScanflowTextTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68DFB99A2952F32C00A85032 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68DFB98C2952F32B00A85032 /* ScanflowText */;
+			targetProxy = 68DFB9992952F32C00A85032 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		68DFB99F2952F32C00A85032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		68DFB9A02952F32C00A85032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		68DFB9A22952F32C00A85032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 423UNFB7Q9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ScanflowText",
+					"$(PROJECT_DIR)/ScanflowText/Tensorflow/Framework",
+					"$(PROJECT_DIR)/ScanflowText/util",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-lc++",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = obs.ScanflowText;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		68DFB9A32952F32C00A85032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 423UNFB7Q9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ScanflowText",
+					"$(PROJECT_DIR)/ScanflowText/Tensorflow/Framework",
+					"$(PROJECT_DIR)/ScanflowText/util",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-lc++",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = obs.ScanflowText;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		68DFB9A52952F32C00A85032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J8G8DUU33R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = obs.ScanflowTextTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68DFB9A62952F32C00A85032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J8G8DUU33R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = obs.ScanflowTextTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68DFB9872952F32B00A85032 /* Build configuration list for PBXProject "ScanflowText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68DFB99F2952F32C00A85032 /* Debug */,
+				68DFB9A02952F32C00A85032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68DFB9A12952F32C00A85032 /* Build configuration list for PBXNativeTarget "ScanflowText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68DFB9A22952F32C00A85032 /* Debug */,
+				68DFB9A32952F32C00A85032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68DFB9A42952F32C00A85032 /* Build configuration list for PBXNativeTarget "ScanflowTextTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68DFB9A52952F32C00A85032 /* Debug */,
+				68DFB9A62952F32C00A85032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68DFB9842952F32B00A85032 /* Project object */;
+}

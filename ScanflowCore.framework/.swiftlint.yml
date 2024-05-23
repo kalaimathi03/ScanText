@@ -1,0 +1,92 @@
+//
+//  .swiftlint.yml
+//  ScanflowCore
+//
+//  Created by Mac-OBS-46 on 09/08/23.
+//
+
+
+disabled_rules:
+- trailing_whitespace
+#- colon
+#- comma
+#- multiple_closures_with_trailing_closure
+#- mark
+#- control_statement
+#- comment_spacing
+#- opening_brace
+#- weak_delegate
+#- type_name
+- identifier_name
+#- statement_position
+- unused_closure_parameter
+#- return_arrow_whitespace
+#- leading_whitespace
+#- function_body_length
+#- unneeded_break_in_switch
+#- vertical_parameter_alignment
+#- vertical_whitespace
+#-  nesting
+#- trailing_semicolon
+#- empty_parentheses_with_trailing_closure
+#- void_return
+#- computed_accessors_order
+#- redundant_void_return
+#- class_delegate_protocol
+#- closure_parameter_position
+#- switch_case_alignment
+- unused_optional_binding
+#- private_over_fileprivate
+#- operator_whitespace
+#- implicit_getter
+#- trailing_newline
+#- trailing_comma
+#- redundant_optional_initialization
+#- redundant_string_enum_value
+#- orphaned_doc_comment
+#- for_where
+#- no_space_in_method_call
+#- legacy_constructor
+#- inclusive_language
+#- syntactic_sugar
+#- unused_enumerated
+#- discouraged_direct_init
+#- notification_center_detachment
+
+
+#match_kinds: # SyntaxKinds to match. optional.
+#- comment
+#- identifier
+
+excluded:
+- Carthage
+- Pods
+- SwiftLint/Common/3rdPartyLib
+
+line_length:
+    warning: 1900
+    error: 2000
+    ignores_function_declarations: true
+    ignores_comments: true
+    ignores_urls: true
+
+function_body_length:
+    warning: 300
+    error: 500
+
+function_parameter_count:
+    warning: 14
+    error: 15
+
+type_body_length:
+    warning: 498
+    error: 510
+
+file_length:
+    warning: 1000
+    error: 1500
+    ignore_comment_only_lines: true
+
+cyclomatic_complexity:
+    warning: 95
+    error: 100

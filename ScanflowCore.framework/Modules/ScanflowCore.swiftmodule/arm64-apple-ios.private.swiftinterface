@@ -1,0 +1,634 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name ScanflowCore
+import AVFoundation
+import Accelerate
+import AudioToolbox
+import CommonCrypto
+import CoreImage
+import CoreLocation
+import CoreVideo
+import DeveloperToolsSupport
+import Foundation
+import ObjectiveC
+import Security
+import Swift
+import SwiftUI
+import SystemConfiguration
+import UIKit
+import VideoToolbox
+import Vision
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import opencv2
+extension ScanflowCore.SFManager {
+  public func getBrightnessValue(_ sampleBuffer: CoreMedia.CMSampleBuffer) -> Swift.Double
+  public func getBrightnessValueFromOpenCV(_ sampleBuffer: CoreVideo.CVPixelBuffer) -> opencv2.Scalar
+  public func extractQRCode(fromFrame frame: CoreVideo.CVImageBuffer?) -> (Swift.String?, Swift.String?)
+  public func print(message: Swift.String, function: ScanflowCore.FUNTIONTYPE)
+}
+extension ScanflowCore.SFManager {
+  public func uploadFailedImagesToS3(_ failedImage: UIKit.UIImage, _ qrInfo: ScanflowCore.CodeInfo)
+  public func getValidUserID() -> Swift.String
+  public func appCenterTrack(status: Swift.String, codeType: Swift.String, isLongDistance: Swift.Bool, isLowLight: Swift.Bool)
+}
+public enum ReachabilityError : Swift.Error {
+  case failedToCreateWithAddress(Darwin.sockaddr, Swift.Int32)
+  case failedToCreateWithHostname(Swift.String, Swift.Int32)
+  case unableToSetCallback(Swift.Int32)
+  case unableToSetDispatchQueue(Swift.Int32)
+  case unableToGetFlags(Swift.Int32)
+}
+@available(*, unavailable, renamed: "Notification.Name.reachabilityChanged")
+public let reachabilityChangedNotification: Foundation.NSNotification.Name
+extension Foundation.NSNotification.Name {
+  public static let reachabilityChanged: Foundation.Notification.Name
+}
+public class Reachability {
+  public typealias NetworkReachable = (ScanflowCore.Reachability) -> ()
+  public typealias NetworkUnreachable = (ScanflowCore.Reachability) -> ()
+  @available(*, unavailable, renamed: "Connection")
+  public enum NetworkStatus : Swift.CustomStringConvertible {
+    case notReachable, reachableViaWiFi, reachableViaWWAN
+    public var description: Swift.String {
+      get
+    }
+    public static func == (a: ScanflowCore.Reachability.NetworkStatus, b: ScanflowCore.Reachability.NetworkStatus) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public enum Connection : Swift.CustomStringConvertible {
+    @available(*, deprecated, renamed: "unavailable")
+    case none
+    case unavailable, wifi, cellular
+    public var description: Swift.String {
+      get
+    }
+    public static func == (a: ScanflowCore.Reachability.Connection, b: ScanflowCore.Reachability.Connection) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public var whenReachable: ScanflowCore.Reachability.NetworkReachable?
+  public var whenUnreachable: ScanflowCore.Reachability.NetworkUnreachable?
+  @available(*, deprecated, renamed: "allowsCellularConnection")
+  final public let reachableOnWWAN: Swift.Bool
+  public var allowsCellularConnection: Swift.Bool
+  public var notificationCenter: Foundation.NotificationCenter
+  @available(*, deprecated, renamed: "connection.description")
+  public var currentReachabilityString: Swift.String {
+    get
+  }
+  @available(*, unavailable, renamed: "connection")
+  public var currentReachabilityStatus: ScanflowCore.Reachability.Connection {
+    get
+  }
+  public var connection: ScanflowCore.Reachability.Connection {
+    get
+  }
+  required public init(reachabilityRef: SystemConfiguration.SCNetworkReachability, queueQoS: Dispatch.DispatchQoS = .default, targetQueue: Dispatch.DispatchQueue? = nil, notificationQueue: Dispatch.DispatchQueue? = .main)
+  convenience public init(hostname: Swift.String, queueQoS: Dispatch.DispatchQoS = .default, targetQueue: Dispatch.DispatchQueue? = nil, notificationQueue: Dispatch.DispatchQueue? = .main) throws
+  convenience public init(queueQoS: Dispatch.DispatchQoS = .default, targetQueue: Dispatch.DispatchQueue? = nil, notificationQueue: Dispatch.DispatchQueue? = .main) throws
+  @objc deinit
+}
+extension ScanflowCore.Reachability {
+  public func startNotifier() throws
+  public func stopNotifier()
+  @available(*, deprecated, message: "Please use `connection != .none`")
+  public var isReachable: Swift.Bool {
+    get
+  }
+  @available(*, deprecated, message: "Please use `connection == .cellular`")
+  public var isReachableViaWWAN: Swift.Bool {
+    get
+  }
+  @available(*, deprecated, message: "Please use `connection == .wifi`")
+  public var isReachableViaWiFi: Swift.Bool {
+    get
+  }
+  public var description: Swift.String {
+    get
+  }
+}
+extension Swift.String {
+  public func size(usingFont font: UIKit.UIFont) -> CoreFoundation.CGSize
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class PreviewView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public class var layerClass: Swift.AnyClass {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension CoreVideo.CVBuffer {
+  public func toImage() -> UIKit.UIImage
+}
+extension CoreVideo.CVBuffer {
+  public func resized(to size: CoreFoundation.CGSize) -> CoreVideo.CVPixelBuffer?
+}
+extension UIKit.UIImage {
+  public func cropImage(frame: CoreFoundation.CGRect) -> UIKit.UIImage
+}
+extension UIKit.UIImage {
+  public func upscaleBarcode() -> UIKit.UIImage
+  public func upscaleQRcode() -> UIKit.UIImage
+}
+extension UIKit.UIImage {
+  public func scaledData(with size: CoreFoundation.CGSize) -> Foundation.Data?
+}
+extension UIKit.UIImage {
+  convenience public init(view: UIKit.UIView)
+}
+extension UIKit.UIImage {
+  public func toPixelBuffer() -> CoreVideo.CVPixelBuffer
+}
+public func convertCMSampleBuffer(_ cvPixelBuffer: CoreVideo.CVPixelBuffer?) -> CoreMedia.CMSampleBuffer
+public enum FUNTIONTYPE : Swift.String {
+  case failedImageUpload
+  case updateCameraScale
+  case processResults
+  case captureOutput
+  case drawRect
+  case imageSaved
+  case formatResults
+  case calculateBoundBox
+  case longDistance
+  case rotateImage
+  case drawAfterCalculation
+  case runModel
+  case imageSavedDetection
+  case initializeModel
+  case originalCropRect
+  case rgbDataFromBuffer
+  case superResolutionStart
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum Scanflow {
+  public enum UpScale {
+  }
+  public enum Texts {
+  }
+  public enum DebugMode {
+  }
+  public enum Models {
+  }
+  public enum S3 {
+  }
+}
+public enum QRDistance : Swift.String {
+  case short
+  case long
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum PlayBeepFor {
+  case oneOfMany
+  case normal
+  public static func == (a: ScanflowCore.PlayBeepFor, b: ScanflowCore.PlayBeepFor) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum FailedImageUseCases : Swift.String {
+  case lowLight
+  case longDistance
+  case weChatQr
+  case lowLightWeChatQr
+  case lowLightLongDistanceWeChatQr
+  case longDistanceWeChatQr
+  case zxingBar
+  case lowLightZxingBar
+  case lowLightLongDistanceZxingBar
+  case longDistanceZxingBar
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@objc public enum ZoomOptions : Swift.Int {
+  case autoZoom
+  case touchToZoom
+  case normal
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum BarCodeType {
+  case unknown
+  case barCode
+  case qrCode
+  case qrLongDistanceGoodLight
+  case qrShortDistanceGoodLight
+  case qrShortDistanceLowLight
+  case qrLongDistanceLowLight
+  public static func == (a: ScanflowCore.BarCodeType, b: ScanflowCore.BarCodeType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@objc public enum ScannerMode : Swift.Int {
+  case qrcode
+  case barcode
+  case any
+  case oneOfMany
+  case batchInventory
+  case pivotView
+  case tire
+  case dotTire
+  case vinChassis
+  case textScanWhiteCoated
+  case universalCodes
+  case sugarcane
+  case switchType
+  case containerHorizontal
+  case containerVertical
+  case docuementScaning
+  case idCard
+  case label
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum OverlayViewApperance : Swift.Int {
+  case square
+  case rectangle
+  case hide
+  case tire
+  case fullscreen
+  case containerHorizantal
+  case containerVerticle
+  case docuementScaning
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum ResolutionTypes : Swift.Int {
+  case medium
+  case hd1280x720
+  case hd1920x1080
+  case hd4K3840x2160
+  case containerHorizantal
+  case containerVerticle
+  case docuementScaning
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public struct ObjectOverlay {
+  public let name: Swift.String
+  public let borderRect: CoreFoundation.CGRect
+  public let nameStringSize: CoreFoundation.CGSize
+  public let color: UIKit.UIColor
+  public let font: UIKit.UIFont
+  public init(name: Swift.String, borderRect: CoreFoundation.CGRect, nameStringSize: CoreFoundation.CGSize, color: UIKit.UIColor, font: UIKit.UIFont)
+}
+public struct Media {
+}
+public enum QRType : Swift.String {
+  case qr
+  case bar
+  case oneOfMany
+  case batchInventry
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct CodeInfo {
+  public var codeType: ScanflowCore.QRType!
+  public var distance: ScanflowCore.QRDistance!
+  public var orginalImage: UIKit.UIImage?
+  public var brightNessAddedImage: UIKit.UIImage?
+  public var croppedQRImage: UIKit.UIImage?
+  public var croppedBARImage: UIKit.UIImage?
+  public var upscaledQRImage: UIKit.UIImage?
+  public var srAppliedQRImage: UIKit.UIImage?
+  public var upscaledBARImage: UIKit.UIImage?
+  public var srAppliedBARImage: UIKit.UIImage?
+  public var decodeFailedQRImage: UIKit.UIImage?
+  public var decodeFailedBARImage: UIKit.UIImage?
+  public var useCases: ScanflowCore.FailedImageUseCases!
+  public init()
+}
+public struct SFSettings {
+  public var zoomMode: ScanflowCore.ZoomOptions!
+  public var zoomSettings: ScanflowCore.ZoomSettings!
+  public var isDetectionFoundAndDecodeFailed: Swift.Bool!
+  public var noDetectionCount: Swift.Int!
+  public var isDetectionFound: Swift.Bool!
+  public var isAutoZoomEnabled: Swift.Bool!
+  public var isTouchToZoomEnabled: Swift.Bool!
+  public var enableAutoFlashLight: Swift.Bool!
+  public var enableAutoExposure: Swift.Bool!
+}
+public struct ZoomSettings {
+  public var detectionWithDecodeFailedCount: Swift.Int!
+  public var currentZoomLevel: CoreFoundation.CGFloat!
+  public var detectionState: ScanflowCore.DetectionMode
+}
+public enum DetectionMode : Swift.String {
+  case success
+  case failed
+  case maximumZoom
+  case none
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct SFResultHandler {
+  public var resized416Image: UIKit.UIImage?
+  public var resized416Time: Swift.String!
+}
+public struct SFConfig {
+  public var resetCount: Swift.Int
+  public var maskSizeSquare: CoreFoundation.CGSize
+  public var maskSizeRectangle: CoreFoundation.CGSize
+  public var maskSizeHorizontalRectangle: CoreFoundation.CGSize
+  public var maskSizeContainerHorizontal: CoreFoundation.CGSize
+  public var maskSizeContainerVerticle: CoreFoundation.CGSize
+  public var cornerLength: CoreFoundation.CGFloat
+  public var lineWidth: CoreFoundation.CGFloat
+  public var lineColor: UIKit.UIColor
+  public var lineCap: QuartzCore.CAShapeLayerLineCap
+  public var lastZoomFactor: CoreFoundation.CGFloat
+  public let minimumZoom: CoreFoundation.CGFloat
+  public let maximumZoom: CoreFoundation.CGFloat
+  public let defaultInitialZoomFactor: CoreFoundation.CGFloat
+  public let edgeOffset: CoreFoundation.CGFloat
+  public var frameCount: Swift.Int
+}
+public struct ScanflowCoreConfigs {
+  public let previewView: UIKit.UIView
+  public let scannerMode: ScanflowCore.ScannerMode
+  public let overlayApperance: ScanflowCore.OverlayViewApperance
+  public var overCropNeed: Swift.Bool
+  public var leftTopArc: UIKit.UIColor
+  public var leftDownArc: UIKit.UIColor
+  public var rightTopArc: UIKit.UIColor
+  public var rightDownArc: UIKit.UIColor
+  public var locationNeed: Swift.Bool
+  public init(previewView: UIKit.UIView, scannerMode: ScanflowCore.ScannerMode, overlayApperance: ScanflowCore.OverlayViewApperance, overCropNeed: Swift.Bool, leftTopArc: UIKit.UIColor, leftDownArc: UIKit.UIColor, rightTopArc: UIKit.UIColor, rightDownArc: UIKit.UIColor, locationNeed: Swift.Bool)
+}
+public enum CameraConfiguration {
+  case success
+  case failed
+  case permissionDenied
+  public static func == (a: ScanflowCore.CameraConfiguration, b: ScanflowCore.CameraConfiguration) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum LocationConfiguration {
+  case success
+  case failed
+  case permissionDenied
+  public static func == (a: ScanflowCore.LocationConfiguration, b: ScanflowCore.LocationConfiguration) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @objc(CameraPermissionManager) open class ScanflowPermissionManger : ObjectiveC.NSObject {
+  public static let shared: ScanflowCore.ScanflowPermissionManger
+  public var locationManager: CoreLocation.CLLocationManager
+  public func attemptToLocationConfiguration() -> ScanflowCore.LocationConfiguration
+  public func attemptToCameraConfigureSession() -> ScanflowCore.CameraConfiguration
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class OverlayView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public var objectOverlays: [ScanflowCore.ObjectOverlay]
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func draw(_ rect: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc(ScanflowCameraManagerDelegate) public protocol ScanflowCameraManagerDelegate {
+  @objc(presentCameraPermissionsDeniedAlert) func presentCameraPermissionsDeniedAlert()
+  @objc(locationAccessDeniedAlert) func locationAccessDeniedAlert()
+  @objc(presentVideoConfigurationErrorAlert) func presentVideoConfigurationErrorAlert()
+  @objc(sessionRunTimeErrorOccurred) func sessionRunTimeErrorOccurred()
+  @objc(sessionWasInterrupted:) func sessionWasInterrupted(canResumeManually resumeManually: Swift.Bool)
+  @objc(sessionInterruptionEnded) func sessionInterruptionEnded()
+  @objc(captured:::) func captured(originalframe: CoreVideo.CVPixelBuffer, overlayFrame: CoreFoundation.CGRect, croppedImage: UIKit.UIImage)
+  @objc(capturedOutput:::::) func capturedOutput(result: Swift.String, codeType: ScanflowCore.ScannerMode, results: [Swift.String]?, processedImage: UIKit.UIImage?, location: CoreLocation.CLLocation?)
+  @objc(showAlert::) func showAlert(title: Swift.String?, message: Swift.String)
+}
+extension ScanflowCore.ScanflowCameraManager {
+  @objc dynamic public func stopSession()
+  public func checkCameraConfigurationAndStartSession()
+}
+@_hasMissingDesignatedInitializers public class SFManager {
+  public static let shared: ScanflowCore.SFManager
+  public var settings: ScanflowCore.SFSettings!
+  public var isDebugModeEnabled: Swift.Bool!
+  public var results: ScanflowCore.SFResultHandler!
+  public var config: ScanflowCore.SFConfig!
+  public var resultArray: [ScanflowCore.SFResultHandler]
+  public var currentFrameBrightness: Swift.Double?
+  final public let podVersion: Swift.String
+  public func initalZoomSettings(_ zoomSettings: ScanflowCore.ZoomOptions)
+  public func enbleDebugMode(enable: Swift.Bool)
+  public func initialAutoZoomSetup()
+  public func initialTouchToZoomSetup()
+  public func getCurrentMillis() -> Swift.String
+  public func playBeep(forCode: ScanflowCore.PlayBeepFor)
+  public func saveAnalytic(id: Swift.String)
+  public func configureAnalytic(analyticId: Swift.String)
+  @objc deinit
+}
+extension UIKit.UIColor {
+  @nonobjc public class var optiScanBoundingBoxColor: UIKit.UIColor {
+    get
+  }
+  @nonobjc public class var optiScanMultiBoundingBoxColor: UIKit.UIColor {
+    get
+  }
+  @nonobjc public class var optiScanMultiBoundingBoxBackcolor: UIKit.UIColor {
+    get
+  }
+  @nonobjc public class var optiScanMultiBoundingBoxSelectedBackcolor: UIKit.UIColor {
+    get
+  }
+  @nonobjc public class var optiScanTickColor: UIKit.UIColor {
+    get
+  }
+  @nonobjc public class var optiScanMultiBoundingBoxSelectedColor: UIKit.UIColor {
+    get
+  }
+  @nonobjc public class var topLeftArrowColor: UIKit.UIColor {
+    get
+  }
+  @nonobjc public class var bottomLeftArrowColor: UIKit.UIColor {
+    get
+  }
+  @nonobjc public class var topRightArrowColor: UIKit.UIColor {
+    get
+  }
+  @nonobjc public class var bottomRightArrowColor: UIKit.UIColor {
+    get
+  }
+}
+extension CoreVideo.CVBuffer {
+  public func getCurrentMillis() -> Swift.String
+  public func setBrightnessContrastOpencv() -> CoreVideo.CVPixelBuffer
+  public func setBrightnessContrastAndroidOpencv() -> CoreVideo.CVPixelBuffer
+}
+@objc public enum CaptureType : Swift.Int {
+  case barcodeCapture
+  case textCapture
+  case idCapture
+  case documentCapture
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers public class KeychainService : ObjectiveC.NSObject {
+  public class func savePassword(token: Swift.String, passwordKey: Swift.String)
+  public class func loadPassword(passwordKey: Swift.String) -> Swift.String?
+  public class func clearEntireKeychain()
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc(CaptureDelegate) public protocol CaptureDelegate {
+  @objc(readData::) func readData(originalframe: CoreVideo.CVPixelBuffer, croppedFrame: CoreVideo.CVPixelBuffer)
+}
+@objc(UpdateSeclectedResultDelegate) public protocol UpdateSeclectedResultDelegate {
+  @objc(updateTouchBasedResult) func updateTouchBasedResult()
+}
+@objc(ScanflowCameraManager) open class ScanflowCameraManager : ScanflowCore.ScanflowPermissionManger, AVFoundation.AVCaptureMetadataOutputObjectsDelegate {
+  @objc weak public var captureDelegate: (any ScanflowCore.CaptureDelegate)?
+  @objc weak public var selectedDelegate: (any ScanflowCore.UpdateSeclectedResultDelegate)?
+  public var pinchGesture: UIKit.UIPinchGestureRecognizer!
+  public var captureDevice: AVFoundation.AVCaptureDeviceInput?
+  weak public var settingsButton: UIKit.UIButton!
+  weak public var touchToZoomButton: UIKit.UIButton!
+  public var outterWhiteRectView: UIKit.UIView!
+  weak public var blinkLabel: UIKit.UILabel!
+  weak public var expireLabel: UIKit.UILabel!
+  public var touchedPosition: CoreFoundation.CGPoint?
+  public var scanningDetails: ScanflowCore.CodeInfo
+  public var previewView: ScanflowCore.PreviewView
+  public var overlayView: ScanflowCore.OverlayView!
+  public var scannerType: ScanflowCore.ScannerMode
+  public var previewSize: CoreFoundation.CGSize?
+  public var toBeSendInDelegate: Swift.Bool
+  public var isFrameProcessing: Swift.Bool
+  public var currentCoordinates: CoreLocation.CLLocation?
+  public var captureStarted: Swift.Bool
+  @objc weak public var delegate: (any ScanflowCore.ScanflowCameraManagerDelegate)?
+  final public let shapeLayer: QuartzCore.CAShapeLayer
+  public var previewViewSize: CoreFoundation.CGSize {
+    get
+  }
+  final public let documentShapeLayer: QuartzCore.CAShapeLayer
+  public init(previewView: UIKit.UIView, scannerMode: ScanflowCore.ScannerMode, overlayApperance: ScanflowCore.OverlayViewApperance, overCropNeed: Swift.Bool = false, leftTopArc: UIKit.UIColor = .topLeftArrowColor, leftDownArc: UIKit.UIColor = .bottomLeftArrowColor, rightTopArc: UIKit.UIColor = .topRightArrowColor, rightDownArc: UIKit.UIColor = .bottomRightArrowColor, locationNeed: Swift.Bool = false)
+  @objc deinit
+  public func updateScanner(mode: ScanflowCore.ScannerMode)
+  public func drawPath(boundRect: [CoreFoundation.CGPoint])
+  @objc(updateOverlay:) public func updateOverlay(isHidden: Swift.Bool)
+  @objc(startSession) public func startSession()
+  @objc(validateLicense::) public func validateLicense(authKey: Swift.String, productType: ScanflowCore.CaptureType)
+  public func updateWaterMarkLabel()
+  public func updateScanFlowSettings(_ zoomSettings: ScanflowCore.ZoomOptions)
+  @objc(setResolution:) public func setResolution(resolutionDetail: ScanflowCore.ResolutionTypes)
+  public func minMaxZoom(_ factor: CoreFoundation.CGFloat, device: AVFoundation.AVCaptureDevice) -> CoreFoundation.CGFloat
+  @objc(touchToZoomButtonAction) public func touchToZoomButtonAction()
+  @objc(flashLight:) public func flashLight(enable: Swift.Bool)
+  @objc(enableZoom:) public func enableZoom(_ zoomMode: ScanflowCore.ZoomOptions)
+  public func resetZoomFactor(_ zoomMode: ScanflowCore.ZoomOptions)
+  public func zoomNearToCode(_ zoomMode: ScanflowCore.ZoomOptions)
+  public func update(scale factor: CoreFoundation.CGFloat, device: AVFoundation.AVCaptureDevice)
+  public func updateInitialZoomFactor(scale factor: CoreFoundation.CGFloat, device: AVFoundation.AVCaptureDevice)
+  public func lowLightHandler(_ imagePixelBuffer: CoreVideo.CVPixelBuffer, _ pixelBuffer: CoreMedia.CMSampleBuffer)
+  public func handoverImagetoDeletate(originalFrame: CoreVideo.CVPixelBuffer, croppedImage: UIKit.UIImage)
+  public func draw(objectOverlays: [ScanflowCore.ObjectOverlay])
+  public func isQrLongDistance(image: UIKit.UIImage, previewWidth: CoreFoundation.CGFloat, previewHeight: CoreFoundation.CGFloat) -> Swift.Bool
+  public func isBarcodeLongDistance(image: UIKit.UIImage, previewWidth: CoreFoundation.CGFloat, previewHeight: CoreFoundation.CGFloat) -> Swift.Bool
+  public func getValidBarCode(_ codeFormat: Swift.Int) -> Swift.String
+  public func getCurrentMillis() -> Swift.String
+  public func rgbDataFromBuffer(_ buffer: CoreVideo.CVPixelBuffer, byteCount: Swift.Int, isModelQuantized: Swift.Bool, imageMean: Swift.Float, imageStd: Swift.Float) -> Foundation.Data?
+  public func decryptFile(key: Swift.String, nonce: Swift.String, data: Foundation.Data) -> Foundation.Data?
+  public func encrypt(data: Foundation.Data, keyData: Swift.String, ivData: Swift.String) throws -> Foundation.Data
+}
+extension ScanflowCore.ScanflowCameraManager : AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate {
+  @objc dynamic public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
+}
+extension ScanflowCore.ScanflowCameraManager : CoreLocation.CLLocationManagerDelegate {
+  @objc dynamic public func locationManager(_ manager: CoreLocation.CLLocationManager, didUpdateLocations locations: [CoreLocation.CLLocation])
+  @objc dynamic public func locationManager(_ manager: CoreLocation.CLLocationManager, didFailWithError error: any Swift.Error)
+  @objc dynamic public func locationManager(_ manager: CoreLocation.CLLocationManager, monitoringDidFailFor region: CoreLocation.CLRegion?, withError error: any Swift.Error)
+}
+@available(*, unavailable, renamed: "Connection")
+extension ScanflowCore.Reachability.NetworkStatus : Swift.Equatable {}
+@available(*, unavailable, renamed: "Connection")
+extension ScanflowCore.Reachability.NetworkStatus : Swift.Hashable {}
+extension ScanflowCore.Reachability.Connection : Swift.Equatable {}
+extension ScanflowCore.Reachability.Connection : Swift.Hashable {}
+extension ScanflowCore.FUNTIONTYPE : Swift.Equatable {}
+extension ScanflowCore.FUNTIONTYPE : Swift.Hashable {}
+extension ScanflowCore.FUNTIONTYPE : Swift.RawRepresentable {}
+extension ScanflowCore.QRDistance : Swift.Equatable {}
+extension ScanflowCore.QRDistance : Swift.Hashable {}
+extension ScanflowCore.QRDistance : Swift.RawRepresentable {}
+extension ScanflowCore.PlayBeepFor : Swift.Equatable {}
+extension ScanflowCore.PlayBeepFor : Swift.Hashable {}
+extension ScanflowCore.FailedImageUseCases : Swift.Equatable {}
+extension ScanflowCore.FailedImageUseCases : Swift.Hashable {}
+extension ScanflowCore.FailedImageUseCases : Swift.RawRepresentable {}
+extension ScanflowCore.ZoomOptions : Swift.Equatable {}
+extension ScanflowCore.ZoomOptions : Swift.Hashable {}
+extension ScanflowCore.ZoomOptions : Swift.RawRepresentable {}
+extension ScanflowCore.BarCodeType : Swift.Equatable {}
+extension ScanflowCore.BarCodeType : Swift.Hashable {}
+extension ScanflowCore.ScannerMode : Swift.Equatable {}
+extension ScanflowCore.ScannerMode : Swift.Hashable {}
+extension ScanflowCore.ScannerMode : Swift.RawRepresentable {}
+extension ScanflowCore.OverlayViewApperance : Swift.Equatable {}
+extension ScanflowCore.OverlayViewApperance : Swift.Hashable {}
+extension ScanflowCore.OverlayViewApperance : Swift.RawRepresentable {}
+extension ScanflowCore.ResolutionTypes : Swift.Equatable {}
+extension ScanflowCore.ResolutionTypes : Swift.Hashable {}
+extension ScanflowCore.ResolutionTypes : Swift.RawRepresentable {}
+extension ScanflowCore.QRType : Swift.Equatable {}
+extension ScanflowCore.QRType : Swift.Hashable {}
+extension ScanflowCore.QRType : Swift.RawRepresentable {}
+extension ScanflowCore.DetectionMode : Swift.Equatable {}
+extension ScanflowCore.DetectionMode : Swift.Hashable {}
+extension ScanflowCore.DetectionMode : Swift.RawRepresentable {}
+extension ScanflowCore.CameraConfiguration : Swift.Equatable {}
+extension ScanflowCore.CameraConfiguration : Swift.Hashable {}
+extension ScanflowCore.LocationConfiguration : Swift.Equatable {}
+extension ScanflowCore.LocationConfiguration : Swift.Hashable {}
+extension ScanflowCore.CaptureType : Swift.Equatable {}
+extension ScanflowCore.CaptureType : Swift.Hashable {}
+extension ScanflowCore.CaptureType : Swift.RawRepresentable {}
