@@ -20685,1568 +20685,1568 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/SupportFile\/Framework\/Reachability.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/SupportFile\/Framework\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 536,
       "length": 33,
       "value": "\"ReachabilityChangedNotification\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/SupportFile\/Framework\/Reachability.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/SupportFile\/Framework\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 664,
       "length": 21,
       "value": "\"reachabilityChanged\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/SupportFile\/Framework\/Reachability.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/SupportFile\/Framework\/Reachability.swift",
       "kind": "BooleanLiteral",
       "offset": 1933,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/SupportFile\/Framework\/Reachability.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/SupportFile\/Framework\/Reachability.swift",
       "kind": "BooleanLiteral",
       "offset": 3105,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/SupportFile\/Framework\/Reachability.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/SupportFile\/Framework\/Reachability.swift",
       "kind": "BooleanLiteral",
       "offset": 3177,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 318,
       "length": 21,
       "value": "\"FAILED-IMAGE-UPLOAD\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 370,
       "length": 30,
       "value": "\"CAMFEED: UPDATE-CAMERA-SCALE\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 427,
       "length": 17,
       "value": "\"PROCESS-RESULTS\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 471,
       "length": 16,
       "value": "\"CAPTURE-OUTPUT\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 508,
       "length": 11,
       "value": "\"DRAW-RECT\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 542,
       "length": 13,
       "value": "\"IMAGE-SAVED\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 581,
       "length": 16,
       "value": "\"FORMAT-RESULTS\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 627,
       "length": 21,
       "value": "\"CALCULATE-BOUND-BOX\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 673,
       "length": 15,
       "value": "\"LONG-DISTANCE\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 712,
       "length": 14,
       "value": "\"ROTATE-IMAGE\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 759,
       "length": 24,
       "value": "\"DRAW-AFTER-CALCULATION\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 809,
       "length": 22,
       "value": "\"DETECTION: RUN-MODEL\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 863,
       "length": 24,
       "value": "\"DETECTION: IMAGE-SAVED\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 915,
       "length": 29,
       "value": "\"DETECTION: INITIALIZE-MODEL\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 973,
       "length": 31,
       "value": "\"DETECTION: ORIGINAL-CROP-RECT\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 1034,
       "length": 33,
       "value": "\"DETECTION: RGB-DATA-FROM-BUFFER\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 1101,
       "length": 30,
       "value": "\"SR: SUPER-RESOLUTION-STARTED\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 318,
       "length": 21,
       "value": "\"FAILED-IMAGE-UPLOAD\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 370,
       "length": 30,
       "value": "\"CAMFEED: UPDATE-CAMERA-SCALE\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 427,
       "length": 17,
       "value": "\"PROCESS-RESULTS\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 471,
       "length": 16,
       "value": "\"CAPTURE-OUTPUT\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 508,
       "length": 11,
       "value": "\"DRAW-RECT\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 542,
       "length": 13,
       "value": "\"IMAGE-SAVED\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 581,
       "length": 16,
       "value": "\"FORMAT-RESULTS\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 627,
       "length": 21,
       "value": "\"CALCULATE-BOUND-BOX\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 673,
       "length": 15,
       "value": "\"LONG-DISTANCE\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 712,
       "length": 14,
       "value": "\"ROTATE-IMAGE\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 759,
       "length": 24,
       "value": "\"DRAW-AFTER-CALCULATION\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 809,
       "length": 22,
       "value": "\"DETECTION: RUN-MODEL\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 863,
       "length": 24,
       "value": "\"DETECTION: IMAGE-SAVED\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 915,
       "length": 29,
       "value": "\"DETECTION: INITIALIZE-MODEL\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 973,
       "length": 31,
       "value": "\"DETECTION: ORIGINAL-CROP-RECT\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 1034,
       "length": 33,
       "value": "\"DETECTION: RGB-DATA-FROM-BUFFER\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 1101,
       "length": 30,
       "value": "\"SR: SUPER-RESOLUTION-STARTED\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 1247,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "FloatLiteral",
       "offset": 1299,
       "length": 3,
       "value": "1.5"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 1380,
       "length": 10,
       "value": "\"SCANFLOW\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 1424,
       "length": 77,
       "value": "\"The Scanflow SDK licence validation failed. \nYour licence key has expired!\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 1607,
       "length": 19,
       "value": "\"Permission denied\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 1662,
       "length": 26,
       "value": "\"DK0205198887544066622022\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "BooleanLiteral",
       "offset": 1737,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 1840,
       "length": 33,
       "value": "\"Sensifai_SuperResolution_TFLite\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 1925,
       "length": 8,
       "value": "\"tflite\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "FloatLiteral",
       "offset": 1986,
       "length": 4,
       "value": "0.25"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 2073,
       "length": 5,
       "value": "\"DEV\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 2121,
       "length": 52,
       "value": "\"https:\/\/datacenter.scanflow.ai\/optiscan\/uploadfile\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 2219,
       "length": 25,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 2242,
       "length": 1,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 2320,
       "length": 16,
       "value": "\"Short Distance\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 2353,
       "length": 15,
       "value": "\"Long Distance\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 2320,
       "length": 16,
       "value": "\"Short Distance\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 2353,
       "length": 15,
       "value": "\"Long Distance\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 2503,
       "length": 10,
       "value": "\"LowLight\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 2538,
       "length": 14,
       "value": "\"LongDistance\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 2578,
       "length": 4,
       "value": "\"D1\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 2611,
       "length": 13,
       "value": "\"LowLight_D1\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 2665,
       "length": 26,
       "value": "\"LowLight_LongDistance_D1\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 2724,
       "length": 17,
       "value": "\"LongDistance_D1\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 2763,
       "length": 4,
       "value": "\"D2\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 2796,
       "length": 13,
       "value": "\"LowLight_D2\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 2850,
       "length": 26,
       "value": "\"LowLight_LongDistance_D2\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 2909,
       "length": 17,
       "value": "\"LongDistance_D2\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 2503,
       "length": 10,
       "value": "\"LowLight\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 2538,
       "length": 14,
       "value": "\"LongDistance\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 2578,
       "length": 4,
       "value": "\"D1\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 2611,
       "length": 13,
       "value": "\"LowLight_D1\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 2665,
       "length": 26,
       "value": "\"LowLight_LongDistance_D1\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 2724,
       "length": 17,
       "value": "\"LongDistance_D1\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 2763,
       "length": 4,
       "value": "\"D2\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 2796,
       "length": 13,
       "value": "\"LowLight_D2\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 2850,
       "length": 26,
       "value": "\"LowLight_LongDistance_D2\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "StringLiteral",
       "offset": 2909,
       "length": 17,
       "value": "\"LongDistance_D2\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3023,
       "length": 11,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3044,
       "length": 6,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3023,
       "length": 11,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3044,
       "length": 6,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3349,
       "length": 7,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3367,
       "length": 3,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3380,
       "length": 9,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3399,
       "length": 14,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3423,
       "length": 9,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3443,
       "length": 4,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3457,
       "length": 7,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3474,
       "length": 10,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3494,
       "length": 19,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3523,
       "length": 14,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3552,
       "length": 9,
       "value": "11"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3571,
       "length": 10,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3592,
       "length": 19,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3621,
       "length": 17,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3649,
       "length": 16,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3675,
       "length": 6,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3691,
       "length": 5,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3349,
       "length": 7,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3367,
       "length": 3,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3380,
       "length": 9,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3399,
       "length": 14,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3423,
       "length": 9,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3443,
       "length": 4,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3457,
       "length": 7,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3474,
       "length": 10,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3494,
       "length": 19,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3523,
       "length": 14,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3552,
       "length": 9,
       "value": "11"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3571,
       "length": 10,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3592,
       "length": 19,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3621,
       "length": 17,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3649,
       "length": 16,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3675,
       "length": 6,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3691,
       "length": 5,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3772,
       "length": 9,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3791,
       "length": 4,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3805,
       "length": 4,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3819,
       "length": 10,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3839,
       "length": 19,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3868,
       "length": 17,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3895,
       "length": 16,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3772,
       "length": 9,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3791,
       "length": 4,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3805,
       "length": 4,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3819,
       "length": 10,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3839,
       "length": 19,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3868,
       "length": 17,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3895,
       "length": 16,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3981,
       "length": 10,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 4001,
       "length": 11,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 4022,
       "length": 13,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 4045,
       "length": 19,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 4074,
       "length": 17,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 4101,
       "length": 16,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 3981,
       "length": 10,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 4001,
       "length": 11,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 4022,
       "length": 13,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 4045,
       "length": 19,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 4074,
       "length": 17,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Enum\/ScanflowPublicEnum.swift",
       "kind": "IntegerLiteral",
       "offset": 4101,
       "length": 16,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
       "kind": "StringLiteral",
       "offset": 1196,
       "length": 9,
       "value": "\"QR Code\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
       "kind": "StringLiteral",
       "offset": 1221,
       "length": 10,
       "value": "\"Bar Code\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
       "kind": "StringLiteral",
       "offset": 1253,
       "length": 13,
       "value": "\"One of many\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
       "kind": "StringLiteral",
       "offset": 1292,
       "length": 16,
       "value": "\"Batch Inventry\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
       "kind": "StringLiteral",
       "offset": 1196,
       "length": 9,
       "value": "\"QR Code\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
       "kind": "StringLiteral",
       "offset": 1221,
       "length": 10,
       "value": "\"Bar Code\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
       "kind": "StringLiteral",
       "offset": 1253,
       "length": 13,
       "value": "\"One of many\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
       "kind": "StringLiteral",
       "offset": 1292,
       "length": 16,
       "value": "\"Batch Inventry\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
       "kind": "StringLiteral",
       "offset": 3475,
       "length": 31,
       "value": "\"Successful Detection & Decode\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
       "kind": "StringLiteral",
       "offset": 3525,
       "length": 35,
       "value": "\"Detection success & Decode Failed\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
       "kind": "StringLiteral",
       "offset": 3584,
       "length": 71,
       "value": "\"Detection success & Decode Failed & Zoom reached above eighty percent\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
       "kind": "StringLiteral",
       "offset": 3672,
       "length": 14,
       "value": "\"No Detection\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
       "kind": "StringLiteral",
       "offset": 3475,
       "length": 31,
       "value": "\"Successful Detection & Decode\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
       "kind": "StringLiteral",
       "offset": 3525,
       "length": 35,
       "value": "\"Detection success & Decode Failed\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
       "kind": "StringLiteral",
       "offset": 3584,
       "length": 71,
       "value": "\"Detection success & Decode Failed & Zoom reached above eighty percent\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
       "kind": "StringLiteral",
       "offset": 3672,
       "length": 14,
       "value": "\"No Detection\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
       "kind": "IntegerLiteral",
       "offset": 4633,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
       "kind": "IntegerLiteral",
       "offset": 4714,
       "length": 3,
       "value": "300"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
       "kind": "IntegerLiteral",
       "offset": 4727,
       "length": 3,
       "value": "300"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
       "kind": "IntegerLiteral",
       "offset": 4789,
       "length": 2,
       "value": "70"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
       "kind": "IntegerLiteral",
       "offset": 4801,
       "length": 3,
       "value": "350"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
       "kind": "IntegerLiteral",
       "offset": 4873,
       "length": 3,
       "value": "350"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
       "kind": "IntegerLiteral",
       "offset": 4886,
       "length": 2,
       "value": "90"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
       "kind": "IntegerLiteral",
       "offset": 4957,
       "length": 3,
       "value": "350"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
       "kind": "IntegerLiteral",
       "offset": 4970,
       "length": 3,
       "value": "120"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
       "kind": "IntegerLiteral",
       "offset": 5040,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
       "kind": "IntegerLiteral",
       "offset": 5053,
       "length": 3,
       "value": "300"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
       "kind": "IntegerLiteral",
       "offset": 5102,
       "length": 2,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
       "kind": "IntegerLiteral",
       "offset": 5141,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
       "kind": "FloatLiteral",
       "offset": 5304,
       "length": 3,
       "value": "1.2"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
       "kind": "FloatLiteral",
       "offset": 5346,
       "length": 3,
       "value": "1.2"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
       "kind": "FloatLiteral",
       "offset": 5388,
       "length": 4,
       "value": "10.0"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
       "kind": "FloatLiteral",
       "offset": 5444,
       "length": 3,
       "value": "1.2"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
       "kind": "FloatLiteral",
       "offset": 5518,
       "length": 3,
       "value": "2.0"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
       "kind": "IntegerLiteral",
       "offset": 5555,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
       "kind": "BooleanLiteral",
       "offset": 5851,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Public\/Struct\/ScanflowPublicStruct.swift",
       "kind": "BooleanLiteral",
       "offset": 6129,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Util\/CameraPermissionManager\/ScanflowPermissionManger.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Util\/CameraPermissionManager\/ScanflowPermissionManger.swift",
       "kind": "StringLiteral",
       "offset": 756,
       "length": 14,
       "value": "\"sessionQueue\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/SupportFile\/View\/OverlayView.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/SupportFile\/View\/OverlayView.swift",
       "kind": "Array",
       "offset": 279,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/SupportFile\/View\/OverlayView.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/SupportFile\/View\/OverlayView.swift",
       "kind": "FloatLiteral",
       "offset": 322,
       "length": 4,
       "value": "10.0"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/SupportFile\/View\/OverlayView.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/SupportFile\/View\/OverlayView.swift",
       "kind": "FloatLiteral",
       "offset": 372,
       "length": 3,
       "value": "0.7"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/SupportFile\/View\/OverlayView.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/SupportFile\/View\/OverlayView.swift",
       "kind": "IntegerLiteral",
       "offset": 413,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/SupportFile\/View\/OverlayView.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/SupportFile\/View\/OverlayView.swift",
       "kind": "FloatLiteral",
       "offset": 514,
       "length": 4,
       "value": "13.0"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/SupportFile\/View\/OverlayView.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/SupportFile\/View\/OverlayView.swift",
       "kind": "FloatLiteral",
       "offset": 568,
       "length": 3,
       "value": "7.0"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Util\/Helper\/SFManager.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Util\/Helper\/SFManager.swift",
       "kind": "BooleanLiteral",
       "offset": 550,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Util\/Helper\/SFManager.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Util\/Helper\/SFManager.swift",
       "kind": "Array",
       "offset": 725,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Util\/Helper\/SFManager.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Util\/Helper\/SFManager.swift",
       "kind": "StringLiteral",
       "offset": 809,
       "length": 7,
       "value": "\"1.2.2\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/SupportFile\/Framework\/ScanFlow+License.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/SupportFile\/Framework\/ScanFlow+License.swift",
       "kind": "IntegerLiteral",
       "offset": 291,
       "length": 11,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/SupportFile\/Framework\/ScanFlow+License.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/SupportFile\/Framework\/ScanFlow+License.swift",
       "kind": "IntegerLiteral",
       "offset": 312,
       "length": 9,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/SupportFile\/Framework\/ScanFlow+License.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/SupportFile\/Framework\/ScanFlow+License.swift",
       "kind": "IntegerLiteral",
       "offset": 331,
       "length": 15,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/SupportFile\/Framework\/ScanFlow+License.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/SupportFile\/Framework\/ScanFlow+License.swift",
       "kind": "IntegerLiteral",
       "offset": 291,
       "length": 11,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/SupportFile\/Framework\/ScanFlow+License.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/SupportFile\/Framework\/ScanFlow+License.swift",
       "kind": "IntegerLiteral",
       "offset": 312,
       "length": 9,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/SupportFile\/Framework\/ScanFlow+License.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/SupportFile\/Framework\/ScanFlow+License.swift",
       "kind": "IntegerLiteral",
       "offset": 331,
       "length": 15,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/SupportFile\/Framework\/ScanFlow+License.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/SupportFile\/Framework\/ScanFlow+License.swift",
       "kind": "StringLiteral",
       "offset": 542,
       "length": 34,
       "value": "\"FiugQTgPNwCWUY,VhfmM4cKXTLVFvHFe\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/SupportFile\/Framework\/ScanFlow+License.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/SupportFile\/Framework\/ScanFlow+License.swift",
       "kind": "StringLiteral",
       "offset": 737,
       "length": 70,
       "value": "\"https:\/\/scanflowprod.azurewebsites.net\/LicenseKey\/ValidateLicenseKey\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/SupportFile\/Framework\/ScanFlow+License.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/SupportFile\/Framework\/ScanFlow+License.swift",
       "kind": "StringLiteral",
       "offset": 844,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/SupportFile\/Framework\/ScanFlow+License.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/SupportFile\/Framework\/ScanFlow+License.swift",
       "kind": "StringLiteral",
       "offset": 881,
       "length": 16,
       "value": "\"KeyForPassword\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/SupportFile\/Framework\/ScanFlow+License.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/SupportFile\/Framework\/ScanFlow+License.swift",
       "kind": "StringLiteral",
       "offset": 936,
       "length": 21,
       "value": "\"subscriptionEndDate\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/SupportFile\/Framework\/ScanFlow+License.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/SupportFile\/Framework\/ScanFlow+License.swift",
       "kind": "StringLiteral",
       "offset": 998,
       "length": 23,
       "value": "\"subscriptionStartDate\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/SupportFile\/Framework\/ScanFlow+License.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/SupportFile\/Framework\/ScanFlow+License.swift",
       "kind": "StringLiteral",
       "offset": 1059,
       "length": 30,
       "value": "\"yyyy-MM-dd'T'HH:mm:ss.SSS'Z'\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/SupportFile\/Framework\/ScanFlow+License.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/SupportFile\/Framework\/ScanFlow+License.swift",
       "kind": "StringLiteral",
       "offset": 1129,
       "length": 13,
       "value": "\"MMM dd,yyyy\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/SupportFile\/Framework\/ScanFlow+License.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/SupportFile\/Framework\/ScanFlow+License.swift",
       "kind": "StringLiteral",
       "offset": 1180,
       "length": 10,
       "value": "\"Approved\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/SupportFile\/Framework\/ScanFlow+License.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/SupportFile\/Framework\/ScanFlow+License.swift",
       "kind": "BooleanLiteral",
       "offset": 1224,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/SupportFile\/Framework\/ScanFlow+License.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/SupportFile\/Framework\/ScanFlow+License.swift",
       "kind": "StringLiteral",
       "offset": 2244,
       "length": 14,
       "value": "\"analytics_Id\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/SupportFile\/Framework\/ScanFlow+License.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/SupportFile\/Framework\/ScanFlow+License.swift",
       "kind": "StringLiteral",
       "offset": 2287,
       "length": 11,
       "value": "\"scan_Type\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/SupportFile\/Framework\/ScanFlow+License.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/SupportFile\/Framework\/ScanFlow+License.swift",
       "kind": "StringLiteral",
       "offset": 2244,
       "length": 14,
       "value": "\"analytics_Id\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/SupportFile\/Framework\/ScanFlow+License.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/SupportFile\/Framework\/ScanFlow+License.swift",
       "kind": "StringLiteral",
       "offset": 2287,
       "length": 11,
       "value": "\"scan_Type\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/SupportFile\/Framework\/KeyChainService.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/SupportFile\/Framework\/KeyChainService.swift",
       "kind": "StringLiteral",
       "offset": 173,
       "length": 19,
       "value": "\"AuthenticatedUser\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/SupportFile\/Framework\/KeyChainService.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/SupportFile\/Framework\/KeyChainService.swift",
       "kind": "StringLiteral",
       "offset": 211,
       "length": 18,
       "value": "\"SecuritySerivice\""
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Util\/Helper\/LongDistance.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Util\/Helper\/LongDistance.swift",
       "kind": "FloatLiteral",
       "offset": 231,
       "length": 4,
       "value": "13.0"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Util\/Helper\/LongDistance.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Util\/Helper\/LongDistance.swift",
       "kind": "FloatLiteral",
       "offset": 280,
       "length": 3,
       "value": "9.0"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Util\/Helper\/LongDistance.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Util\/Helper\/LongDistance.swift",
       "kind": "FloatLiteral",
       "offset": 332,
       "length": 4,
       "value": "64.0"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/Util\/Helper\/LongDistance.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/Util\/Helper\/LongDistance.swift",
       "kind": "FloatLiteral",
       "offset": 386,
       "length": 4,
       "value": "16.0"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/SupportFile\/ScanflowCameraManager.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/SupportFile\/ScanflowCameraManager.swift",
       "kind": "BooleanLiteral",
       "offset": 1525,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/SupportFile\/ScanflowCameraManager.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/SupportFile\/ScanflowCameraManager.swift",
       "kind": "BooleanLiteral",
       "offset": 1745,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/SupportFile\/ScanflowCameraManager.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/SupportFile\/ScanflowCameraManager.swift",
       "kind": "BooleanLiteral",
       "offset": 1911,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/SupportFile\/ScanflowCameraManager.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/SupportFile\/ScanflowCameraManager.swift",
       "kind": "BooleanLiteral",
       "offset": 1957,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/SupportFile\/ScanflowCameraManager.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/SupportFile\/ScanflowCameraManager.swift",
       "kind": "BooleanLiteral",
       "offset": 2048,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/SupportFile\/ScanflowCameraManager.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/SupportFile\/ScanflowCameraManager.swift",
       "kind": "BooleanLiteral",
       "offset": 3744,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/SupportFile\/ScanflowCameraManager.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/SupportFile\/ScanflowCameraManager.swift",
       "kind": "BooleanLiteral",
       "offset": 3801,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/SupportFile\/ScanflowCameraManager.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/SupportFile\/ScanflowCameraManager.swift",
       "kind": "BooleanLiteral",
       "offset": 4767,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/SupportFile\/ScanflowCameraManager.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/SupportFile\/ScanflowCameraManager.swift",
       "kind": "BooleanLiteral",
       "offset": 4975,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/mac-obs-47\/Documents\/ScanCore\/ScanflowCore\/SupportFile\/ScanflowCameraManager.swift",
+      "filePath": "\/Users\/mac-obs-47\/Documents\/git-frameworks\/scanflow-core-ios-sdk\/ScanflowCore\/SupportFile\/ScanflowCameraManager.swift",
       "kind": "StringLiteral",
       "offset": 677,
       "length": 21,

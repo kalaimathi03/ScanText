@@ -82,7 +82,7 @@
 		68DFB9CC2954042300A85032 /* effiLabel.txt in Resources */ = {isa = PBXBuildFile; fileRef = 68DFB9BF2954042300A85032 /* effiLabel.txt */; };
 		68DFB9CF2954042300A85032 /* labelmap.txt in Resources */ = {isa = PBXBuildFile; fileRef = 68DFB9C22954042300A85032 /* labelmap.txt */; };
 		68DFB9D4295555C400A85032 /* ScanflowTextManager+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DFB9D3295555C400A85032 /* ScanflowTextManager+Extension.swift */; };
-		8BD887C62BB40A5A000C72AC /* ScanflowCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD887C42BB40A5A000C72AC /* ScanflowCore.framework */; };
+		88FE53C02C04660000545961 /* ScanflowCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD887C02BB40790000C72AC /* ScanflowCore.framework */; };
 		8BD887C72BB40A5A000C72AC /* TensorFlowLiteC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD887C52BB40A5A000C72AC /* TensorFlowLiteC.framework */; };
 /* End PBXBuildFile section */
 
@@ -184,7 +184,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BD887C62BB40A5A000C72AC /* ScanflowCore.framework in Frameworks */,
+				88FE53C02C04660000545961 /* ScanflowCore.framework in Frameworks */,
 				8BD887C72BB40A5A000C72AC /* TensorFlowLiteC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
